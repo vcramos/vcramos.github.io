@@ -1,16 +1,21 @@
-title: Victor Calefi
+analytics: 
+  google: 
+    id: G-G0P6TJYH2C
+
+description: >
+  First description 
+  <br><br>
+  Second description 
+  <br><br>
+  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
 
 lang: en-US
 
 logo: "/images/logo.png?raw=true"
 
-description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+plugins:
+- jekyll-remote-theme
 
-analytics: 
-  google: 
-    id: G-G0P6TJYH2C
+remote_theme: pages-themes/minimal@v0.2.0
+
+title: Victor Calefi
