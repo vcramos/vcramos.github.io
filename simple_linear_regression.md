@@ -70,6 +70,10 @@ A = A - α * (∂MSE/∂A)
 B = B - α * (∂MSE/∂B)
 ```
 
+$ B = B - α * (∂MSE/∂B) $
+
+$$ B = B - α * (∂MSE/∂B) $$
+
 Where:
 
 - α: Learning rate.
@@ -88,6 +92,11 @@ Residuals should follow a normal distribution with a mean close to zero.
 
 4. Homoscedasticity (Constant Variance):
 The variance of residuals should remain constant across all levels of the independent variable.
+
+### Evaluating the Performance of Simple Linear Regression
+
+1. Coefficient of Determination (R²):
+The coefficient of determination, R², measures the proportion of the variance in the dependent variable that is predictable from the independent variable. It is defined as:
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
