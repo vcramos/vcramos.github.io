@@ -6,12 +6,7 @@ Simple linear regression is one of the foundational concepts in statistical mode
 - Dependent Variable (Output): This is the variable we want to predict.
 The core idea of simple linear regression is to establish a linear relationship between these variables. The relationship is represented as a straight line called the regression line, defined by the equation:
 
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-
-Y_i = A \cdot X + B
-
-```
+$$Y_i = A \cdot X + B$$
 
 Where:
 
