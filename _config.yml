@@ -6,11 +6,11 @@ analytics:
 # Site description with HTML formatting
 description: >
   <br>
-  <a style="padding-left:25px; padding-right:25px; font-size:110%;" href="https://github.com/vcramos/">
-    <i class="fab fa-github"></i>
+  <a style="padding-left:10px; padding-right:10px;" href="https://github.com/vcramos/">
+    <i class="fab fa-github fa-lg"></i>
   </a>
-  <a style="padding-left:25px; padding-right:25px; font-size:110%;" href="https://www.linkedin.com/in/vcalefi/">
-    <i class="fa-brands fa-linkedin"></i>
+  <a style="padding-left:10px; padding-right:10px;" href="https://www.linkedin.com/in/vcalefi/">
+    <i class="fa-brands fa-linkedin fa-lg"></i>
   </a>
 
 # Language setting for the site
