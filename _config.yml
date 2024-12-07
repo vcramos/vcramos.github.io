@@ -1,7 +1,9 @@
+# Google Analytics configuration
 analytics: 
   google: 
     id: G-G0P6TJYH2C
 
+# Site description with HTML formatting
 description: >
   First description 
   <br><br>
@@ -9,13 +11,21 @@ description: >
   <br><br>
   <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a>
 
+# Language setting for the site
 lang: en-US
 
+# Path to the site logo
 logo: "/images/logo.png?raw=true"
 
+# List of Jekyll plugins to use
 plugins:
 - jekyll-remote-theme
 
+# Remote theme configuration
 remote_theme: pages-themes/minimal@v0.2.0
 
+# Site title
 title: Victor Calefi
+
+# Base URL of the site
+url: https://vcramos.github.io
