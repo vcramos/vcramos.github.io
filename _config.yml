@@ -11,7 +11,7 @@ description: >
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/vcalefi/">
-    <span class="material-icons">linkedin</span>
+    <i class="fab fa-github"></i>
   </a>
 
 # Language setting for the site
