@@ -1,17 +1,6 @@
-# Google Analytics configuration
-analytics: 
-  google: 
-    id: G-G0P6TJYH2C
-
 # Site description with HTML formatting
 description: >
   <br>
-  <a style="padding-left:10px; padding-right:10px;" href="https://github.com/vcramos/">
-    <i class="fab fa-github fa-xl"></i>
-  </a>
-  <a style="padding-left:10px; padding-right:10px;" href="https://www.linkedin.com/in/vcalefi/">
-    <i class="fa-brands fa-linkedin fa-xl"></i>
-  </a>
 
 # Language setting for the site
 lang: en-US
@@ -25,6 +14,11 @@ plugins:
 
 # Remote theme configuration
 remote_theme: pages-themes/minimal@v0.2.0
+
+
+social:
+  github: https://github.com/vcramos/
+  linkedin: https://www.linkedin.com/in/vcalefi/
 
 # Site title
 title: Victor Calefi
