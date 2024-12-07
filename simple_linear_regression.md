@@ -1,56 +1,43 @@
 ## Simple Linear Regression
 
+### What is Simple Linear Regression?
+
 Simple linear regression is one of the foundational concepts in statistical modeling and machine learning. It is used to explore and quantify the relationship between two variables:
 
 - Independent Variable (Predictor): This is the variable used to predict the outcome.
 - Dependent Variable (Output): This is the variable we want to predict.
+
 The core idea of simple linear regression is to establish a linear relationship between these variables. The relationship is represented as a straight line called the regression line, defined by the equation:
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
 ```math
-Y_i = A \cdot X + B
+Yi = A * X + B
 ```
 
-$$Y_i = A \cdot X + B$$
+Where:
+- Yi: Predicted value of the dependent variable for the i-th observation.
+- X: Value of the independent variable.
+- A: Slope of the line, representing the rate of change in Y for a one-unit increase in X.
+- B: Intercept, representing the predicted value of Y when X = 0.​
 
-$Y_i = A \cdot X + B$
+This technique is widely used for predictive analysis, as it offers a simple and interpretable model for understanding the relationship between two variables.
 
-$\Y_i = A \cdot X + B$
+### How Does Simple Linear Regression Work?
 
-\Y_i
+1. Defining the Best-Fit Line
+The best-fit line minimizes the difference (error) between the actual values and the predicted values of the dependent variable. In mathematical terms, this line minimizes the sum of squared residuals.
+
+2. Random Errors (Residuals)
+Residuals are calculated as:
+
+```math
+ei = Yactual - Ypredicted
+```
 
 Where:
 
-𝑌
-𝑖
-Y 
-i
-​
- : Predicted value of the dependent variable for the 
-𝑖
-i-th observation.
-𝑋
-X: Value of the independent variable.
-𝐴
-A: Slope of the line, representing the rate of change in 
-𝑌
-Y for a one-unit increase in 
-𝑋
-X.
-𝐵
-B: Intercept, representing the predicted value of 
-𝑌
-Y when 
-𝑋
-=
-0
-X=0.
-This technique is widely used for predictive analysis, as it offers a simple and interpretable model for understanding the relationship between two variables.
-
-### 1. Suggest hypotheses about the causes of observed phenomena
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+- ei: Residual (error) for the i-th observation.
+- Yactual: Observed value.
+- Ypredicted: Predicted value.
 
 ```python
 if (isAwesome){
@@ -58,20 +45,50 @@ if (isAwesome){
 }
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### How to Obtain the Best-Fit Line Mathematically?
 
-```python
-if (isAwesome){
-  return true
-}
+To determine the parameters A (slope) and B (intercept), we use optimization techniques, specifically minimizing the Mean Squared Error (MSE).
+
+**Mean Squared Error (MSE)**
+MSE is a cost function that quantifies the average squared difference between the actual and predicted values. It is given by:
+
+```math
+MSE = (1/N) * Σ(Yactual_i - (A * Xi + B))²
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+Where:
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+- N: Total number of data points.
+- Yactual_i: Actual value of the dependent variable for the i-th data point.
+- A * Xi + B: Predicted value for the i-th data point.
 
-### 4. Provide a basis for further data collection through surveys or experiments
+**Gradient Descent**
+Gradient descent is an iterative optimization algorithm used to minimize the cost function (MSE). The algorithm updates A and B as follows:
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+```math
+A = A - α * (∂MSE/∂A)
+B = B - α * (∂MSE/∂B)
+```
+
+Where:
+
+- α: Learning rate.
+- (∂MSE/∂A) and (∂MSE/∂B): Partial derivatives of the MSE with respect to A and B.
+
+### Assumptions of Simple Linear Regression
+
+1. Linearity:
+The relationship between the independent variable and the dependent variable must be linear.
+
+2. Independence of Residuals:
+Residuals (errors) should not be correlated with each other.
+
+3. Normality of Residuals:
+Residuals should follow a normal distribution with a mean close to zero.
+
+4. Homoscedasticity (Constant Variance):
+The variance of residuals should remain constant across all levels of the independent variable.
+
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
