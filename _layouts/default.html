@@ -34,12 +34,12 @@
          <p>
             {{ site.description | default: site.github.project_tagline }}
             {% if site.social.github %}
-            <a style="padding-left:10px; padding-right:10px;" href="{{ site.social.github }}">
+            <a style="padding-left:10px; padding-right:10px;" target="_blank" href="{{ site.social.github }}">
                <i class="fab fa-github fa-xl"></i>
             </a>
             {% endif %}
             {% if site.social.linkedin %}
-            <a style="padding-left:10px; padding-right:10px;" href="{{ site.social.linkedin }}">
+            <a style="padding-left:10px; padding-right:10px;" target="_blank" href="{{ site.social.linkedin }}">
                <i class="fa-brands fa-linkedin fa-xl"></i>
             </a>
             {% endif %}
