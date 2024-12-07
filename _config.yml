@@ -6,12 +6,11 @@ analytics:
 # Site description with HTML formatting
 description: >
   <br>
-  First description 
-  <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/vcalefi/">
+  <a href="https://github.com/vcramos/">
     <i class="fab fa-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/vcalefi/">
+    <i class="fa-brands fa-linkedin"></i>
   </a>
 
 # Language setting for the site
