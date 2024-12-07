@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Simple Linear Regression](/simple_linear_regression)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
