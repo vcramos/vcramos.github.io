@@ -33,6 +33,15 @@
          <!-- Site description -->
          <p>
             {{ site.description | default: site.github.project_tagline }}
+         </p>
+      </header>
+      <section>
+         <!-- Main content of the page -->
+         {{ content }}
+      </section>
+      <footer>
+         <!-- Footer with project maintenance information if applicable -->
+         <p>
             {% if site.social.github %}
             <a style="padding-left:10px; padding-right:10px;" target="_blank" href="{{ site.social.github }}">
                <i class="fab fa-github fa-xl"></i>
@@ -44,14 +53,6 @@
             </a>
             {% endif %}
          </p>
-      </header>
-      <section>
-         <!-- Main content of the page -->
-         {{ content }}
-      </section>
-      <footer>
-         <!-- Footer with project maintenance information if applicable -->
-         <p>This project is maintained by <a href="/">a</a></p>
       </footer>
    </div>
    <!-- Script for fixing scaling issues -->
