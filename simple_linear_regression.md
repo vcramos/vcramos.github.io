@@ -1,9 +1,13 @@
 ## Simple Linear Regression
 
 [What is Simple Linear Regression?](#what-is-simple-linear-regression)
+
 [How Does Simple Linear Regression Work?](#how-does-simple-linear-regression-work)
+
 [How to Obtain the Best-Fit Line Mathematically?](#how-to-obtain-the-best-fit-line-mathematically)
+
 [Assumptions of Simple Linear Regression](#assumptions-of-simple-linear-regression)
+
 [Evaluating the Performance of Simple Linear Regression](#evaluating-the-performance-of-simple-linear-regression)
 
 ### What is Simple Linear Regression?
@@ -50,6 +54,7 @@ Where:
 To determine the parameters A (slope) and B (intercept), we use optimization techniques, specifically minimizing the Mean Squared Error (MSE).
 
 **Mean Squared Error (MSE)**
+
 MSE is a cost function that quantifies the average squared difference between the actual and predicted values. It is given by:
 
 ```math
@@ -63,6 +68,7 @@ Where:
 - A * X_i + B: Predicted value for the i-th data point.
 
 **Gradient Descent**
+
 Gradient descent is an iterative optimization algorithm used to minimize the cost function (MSE). The algorithm updates A and B as follows:
 
 ```math
@@ -113,10 +119,12 @@ Where:
 
 MSE: Mean Squared Error, as defined earlier.
 
-References:
+---
 
 *Montgomery, D. C., Peck, E. A., & Vining, G. G. (2021). Introduction to Linear Regression Analysis (6th ed.). Wiley.*
+
 *Draper, N. R., & Smith, H. (1998). Applied Regression Analysis (3rd ed.). Wiley.*
+
 *Kutner, M. H., Nachtsheim, C. J., Neter, J., & Li, W. (2005). Applied Linear Statistical Models (5th ed.). McGraw-Hill Education.*
 
 <!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
