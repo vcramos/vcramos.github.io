@@ -32,8 +32,8 @@ $$ e_i = Y_{actual} - Y_{predicted} $$
 Where:
 
 - $$ e_i $$: Residual (error) for the i-th observation.
-- $$ Y_actual $$: Observed value.
-- $$ Y_predicted $$: Predicted value.
+- $$ Y_{actual} $$: Observed value.
+- $$ Y_{predicted} $$: Predicted value.
 
 ### How to Obtain the Best-Fit Line Mathematically?
 
@@ -43,7 +43,7 @@ To determine the parameters A (slope) and B (intercept), we use optimization tec
 
 MSE is a cost function that quantifies the average squared difference between the actual and predicted values. It is given by:
 
-$$ MSE = (1/N) * Σ(Y_actual_i - (A * X_i + B)) ^ 2 $$
+$$ MSE = (1/N) * \sum(Y_{actual_i} - (A * X_i + B)) ^ 2 $$
 
 Where:
 
