@@ -27,7 +27,7 @@ The best-fit line minimizes the difference (error) between the actual values and
 2. Random Errors (Residuals)
 Residuals are calculated as:
 
-$$ e_i = Y_actual - Y_predicted $$
+$$ e_i = Y_{actual} - Y_{predicted} $$
 
 Where:
 
