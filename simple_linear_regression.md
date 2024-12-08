@@ -1,15 +1,5 @@
 ## Simple Linear Regression
 
-[What is Simple Linear Regression?](#what-is-simple-linear-regression)
-
-[How Does Simple Linear Regression Work?](#how-does-simple-linear-regression-work)
-
-[How to Obtain the Best-Fit Line Mathematically?](#how-to-obtain-the-best-fit-line-mathematically)
-
-[Assumptions of Simple Linear Regression](#assumptions-of-simple-linear-regression)
-
-[Evaluating the Performance of Simple Linear Regression](#evaluating-the-performance-of-simple-linear-regression)
-
 ### What is Simple Linear Regression?
 
 Simple linear regression is one of the foundational concepts in statistical modeling and machine learning. It is used to explore and quantify the relationship between two variables:
@@ -22,6 +12,8 @@ The core idea of simple linear regression is to establish a linear relationship 
 ```math
 Y_i = A * X + B
 ```
+
+$$ Y_i = A * X + B $$
 
 Where:
 - Y_i: Predicted value of the dependent variable for the i-th observation.
