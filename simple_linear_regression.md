@@ -9,14 +9,10 @@ Simple linear regression is one of the foundational concepts in statistical mode
 
 The core idea of simple linear regression is to establish a linear relationship between these variables. The relationship is represented as a straight line called the regression line, defined by the equation:
 
-```math
-Y_i = A * X + B
-```
-
 $$ Y_i = A * X + B $$
 
 Where:
-- Y_i: Predicted value of the dependent variable for the i-th observation.
+- $$ Y_i $$: Predicted value of the dependent variable for the i-th observation.
 - X: Value of the independent variable.
 - A: Slope of the line, representing the rate of change in Y for a one-unit increase in X.
 - B: Intercept, representing the predicted value of Y when X = 0.​
@@ -31,15 +27,13 @@ The best-fit line minimizes the difference (error) between the actual values and
 2. Random Errors (Residuals)
 Residuals are calculated as:
 
-```math
-e_i = Y_actual - Y_predicted
-```
+$$ e_i = Y_actual - Y_predicted $$
 
 Where:
 
-- e_i: Residual (error) for the i-th observation.
-- Y_actual: Observed value.
-- Y_predicted: Predicted value.
+- $$ e_i $$: Residual (error) for the i-th observation.
+- $$ Y_actual $$: Observed value.
+- $$ Y_predicted $$: Predicted value.
 
 ### How to Obtain the Best-Fit Line Mathematically?
 
@@ -49,15 +43,13 @@ To determine the parameters A (slope) and B (intercept), we use optimization tec
 
 MSE is a cost function that quantifies the average squared difference between the actual and predicted values. It is given by:
 
-```math
-MSE = (1/N) * Σ(Y_actual_i - (A * X_i + B)) ^ 2
-```
+$$ MSE = (1/N) * Σ(Y_actual_i - (A * X_i + B)) ^ 2 $$
 
 Where:
 
 - N: Total number of data points.
-- Y_actual_i: Actual value of the dependent variable for the i-th data point.
-- A * X_i + B: Predicted value for the i-th data point.
+- $$ Y_actual_i $$: Actual value of the dependent variable for the i-th data point.
+- $ A * X_i + B $: Predicted value for the i-th data point.
 
 **Gradient Descent**
 
