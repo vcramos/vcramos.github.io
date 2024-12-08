@@ -48,17 +48,15 @@ $$ MSE = (1/N) * \sum(Y_{actual_i} - (A * X_i + B)) ^ 2 $$
 Where:
 
 - N: Total number of data points.
-- $$ Y_actual_i $$: Actual value of the dependent variable for the i-th data point.
-- $ A * X_i + B $: Predicted value for the i-th data point.
+- $$ Y_{actual_i} $$: Actual value of the dependent variable for the i-th data point.
+- $$ A * X_i + B $$: Predicted value for the i-th data point.
 
 **Gradient Descent**
 
 Gradient descent is an iterative optimization algorithm used to minimize the cost function (MSE). The algorithm updates A and B as follows:
 
-```math
-A = A - α * (∂MSE / ∂A)
-B = B - α * (∂MSE / ∂B)
-```
+$$ A = A - α * (\partial{MSE} / \partial{A}) $$
+$$ B = B - α * (\partial{MSE} / \partial{B}) $$
 
 Where:
 
