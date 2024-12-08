@@ -1,6 +1,10 @@
 ## Simple Linear Regression
 
 [What is Simple Linear Regression?](#what-is-simple-linear-regression)
+[How Does Simple Linear Regression Work?](#how-does-simple-linear-regression-work)
+[How to Obtain the Best-Fit Line Mathematically?](#how-to-obtain-the-best-fit-line-mathematically)
+[Assumptions of Simple Linear Regression](#assumptions-of-simple-linear-regression)
+[Evaluating the Performance of Simple Linear Regression](#evaluating-the-performance-of-simple-linear-regression)
 
 ### What is Simple Linear Regression?
 
@@ -90,6 +94,29 @@ The variance of residuals should remain constant across all levels of the indepe
 1. Coefficient of Determination (R²):
 The coefficient of determination, R², measures the proportion of the variance in the dependent variable that is predictable from the independent variable. It is defined as:
 
-<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
+```math
+R² = 1 - (Σ(Residuals²) / Σ(Total Sum of Squares))
+```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Where:
+
+Σ(Residuals²): Sum of squared residuals.
+Σ(Total Sum of Squares): Total variance in the dependent variable.
+2. Root Mean Squared Error (RMSE):
+RMSE is the square root of the mean squared error, representing the average error magnitude:
+
+```math
+RMSE = √MSE
+```
+
+Where:
+
+MSE: Mean Squared Error, as defined earlier.
+
+References:
+
+*Montgomery, D. C., Peck, E. A., & Vining, G. G. (2021). Introduction to Linear Regression Analysis (6th ed.). Wiley.*
+*Draper, N. R., & Smith, H. (1998). Applied Regression Analysis (3rd ed.). Wiley.*
+*Kutner, M. H., Nachtsheim, C. J., Neter, J., & Li, W. (2005). Applied Linear Statistical Models (5th ed.). McGraw-Hill Education.*
+
+<!-- <img src="images/dummy_thumbnail.jpg?raw=true"/> -->
