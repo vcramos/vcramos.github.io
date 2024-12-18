@@ -55,13 +55,14 @@ Where:
 
 Gradient descent is an iterative optimization algorithm used to minimize the cost function (MSE). The algorithm updates A and B as follows:
 
-$$ A = A - α * (\partial{MSE} / \partial{A}) $$
-$$ B = B - α * (\partial{MSE} / \partial{B}) $$
+$$ A = A - \alpha * (\partial{MSE} / \partial{A}) $$
+
+$$ B = B - \alpha * (\partial{MSE} / \partial{B}) $$
 
 Where:
 
-- α: Learning rate.
-- (∂MSE / ∂A) and (∂MSE / ∂B): Partial derivatives of the MSE with respect to A and B.
+- $$ \alpha $$: Learning rate.
+- (\partial{MSE} / \partial{A}) and (\partial{MSE} / \partial{B}): Partial derivatives of the MSE with respect to A and B.
 
 ### Assumptions of Simple Linear Regression
 
@@ -82,9 +83,7 @@ The variance of residuals should remain constant across all levels of the indepe
 1. Coefficient of Determination (R²):
 The coefficient of determination, R², measures the proportion of the variance in the dependent variable that is predictable from the independent variable. It is defined as:
 
-```math
-R² = 1 - (Σ(Residuals²) / Σ(Total Sum of Squares))
-```
+$$ R² = 1 - (Σ(Residuals²) / Σ(Total Sum of Squares)) $$
 
 Where:
 
